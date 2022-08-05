@@ -149,7 +149,7 @@ class GeotrekTrekParser(GeotrekParser):
                                                                order=order)
                         order += 1
         except Exception as e:
-            self.add_warning(_(f"An error occured in children generation : {e}"))
+            self.add_warning(_(f"An error occured in children generation : {getattr(e, 'message', repr(e))}"))
 
 
 class GeotrekServiceParser(GeotrekParser):
