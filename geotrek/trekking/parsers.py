@@ -77,13 +77,13 @@ class GeotrekTrekParser(GeotrekParser):
         "geom": "geometry"
     }
     url_categories = {
-        "difficulty": "/api/v2/trek_difficulty/",
-        "route": "/api/v2/trek_route/",
-        "themes": "/api/v2/theme/",
-        "practice": "/api/v2/trek_practice/",
-        "accessibilities": "/api/v2/trek_accessibility/",
-        "networks": "/api/v2/trek_network/",
-        'labels': '/api/v2/label/'
+        "difficulty": "trek_difficulty",
+        "route": "trek_route",
+        "themes": "theme",
+        "practice": "trek_practice",
+        "accessibilities": "trek_accessibility",
+        "networks": "trek_network",
+        'labels': 'label'
     }
     categories_keys_api_v2 = {
         'difficulty': 'label',
@@ -165,7 +165,7 @@ class GeotrekServiceParser(GeotrekParser):
         "geom": "geometry"
     }
     url_categories = {
-        "type": "/api/v2/service_type/",
+        "type": "service_type",
     }
     categories_keys_api_v2 = {
         'type': 'name',
@@ -193,7 +193,7 @@ class GeotrekPOIParser(GeotrekParser):
         "geom": "geometry"
     }
     url_categories = {
-        "type": "/api/v2/poi_type/",
+        "type": "poi_type",
     }
     categories_keys_api_v2 = {
         'type': 'label',
