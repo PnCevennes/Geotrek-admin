@@ -11,6 +11,8 @@ CHANGELOG
 - Add information desk uuid (#3189)
 - Add setting ``ALERT_DRAFT`` which send mail whenever a path has been changed to draft (#2904)
 - Add file type to attachments in API v2 (#3189)
+- Add parser using api v2 (InformationDesk, TouristicContent, TouristicEvent, POI, Trek, Service, Signage, Infrastructure)
+- Add aggregator parser with a conductor using json file
 
 **Minor improvements**
 
