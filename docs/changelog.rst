@@ -8,6 +8,8 @@ CHANGELOG
 
 **Minor improvements**
 - Set begin_date, end_date not null for touristic event
+- Rename metting_time to start_time
+- Add field end_time
 
 2.87.2 (2022-09-23)
 -----------------------
